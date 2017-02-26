@@ -1,0 +1,123 @@
+h1, h2 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+i {
+	color: white;
+	margin-right: 8px;
+}
+
+#header-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-content {
+	line-height: 50px;
+	list-style: none;
+	display: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696
+    url(../photos/coding-laptop.jpeg) no-repeat top;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+
+
+.button {
+	display: table-cell;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	height: 30px;
+	width: 200px;
+}
+
+.about {
+	margin-top: 100px;
+}
+
+.portfolio {
+	color: white;
+	background-color: black;
+}
+
+.abilities {
+}
+
+.fa-star {
+	color: #1E90FF;
+}
+
+.github-button {
+	height: 50px;
+	background-color: red;
+}
+
+.github-button:hover {
+		background-color: blue;
+	}
+
+#contact {
+	text-align: center;
+	background-color: #d6b462;
+	color: white;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.social {
+	font-size: 20px;
+	padding: 15px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+@media only screen and (min-width: 780px) {
+  .hero-img {
+    height: auto;
+  }
+
+}
